@@ -1,0 +1,254 @@
+/* mobile: width < 740px */
+@media only screen and (max-width: 740px) {
+
+    /* //header------------------------------------------ */
+    .header {
+        max-height: 40px;
+        padding: 5px;
+    }
+
+    .header-content {
+        flex: 0 0 100%;
+        font-size: 16px;
+    }
+
+    /* menu--------- */
+    .trangchu,
+    .dmsp,
+    .tintuc,
+    .gh,
+    .donmua,
+    .search {
+        width: 100%
+    }
+
+    .ed-menu {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* ------------------------------------đăng ký    ------------------------------------*/
+    .dangnhap {
+        width: 100%;
+    }
+
+    /* main -------------------     ------------------------------------*/
+    .main {
+        width: 100%;
+        height: auto;
+        /* border: 2px solid red; */
+        margin: 10px 0;
+        padding: 10px;
+
+    }
+
+    .main-tren {
+        width: 100%;
+        height: auto;
+        /* border: 2px solid rgb(47, 24, 252); */
+        display: flex;
+        overflow: hidden;
+    }
+
+    .main-tren .danhmuc {
+        border: 2px solid orange;
+        width: 100%;
+        flex: 0 0 100%;
+        height: auto;
+        overflow: hidden;
+        margin-right: 2%;
+
+    }
+
+    /* 1 sản phẩm */
+    .item {
+        width: 48%;
+        flex: 0 0 48%;
+        height: auto;
+        border: 1px solid;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+
+    div.ten h5 {
+        width: 100%;
+        color: rgb(76, 75, 75);
+        font-weight: 600;
+        font-size: 12px;
+        height: 70px;
+    }
+
+    /* div.ten{
+        height: 65px;
+    } */
+    .price_show {
+        font-size: 15px;
+    }
+
+    .price_through {
+        font-size: 14px;
+    }
+
+    .fa.fa-heart {
+        font-size: 22px;
+    }
+
+    .cmt .sao {
+        padding: 4% 0;
+    }
+
+    /* --------- chi tiết 1 sp */
+    div.product {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.product .img-product {
+        width: 100%;
+    }
+
+    .chitiet-product {
+        width: 100%;
+    }
+
+    #tab1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nd {
+        width: 100%;
+    }
+
+    .tskt {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .nd p img {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* chạy banner */
+    .banner .slides {
+        width: 100%;
+        height: auto;
+        border: 2px solid;
+        display: block;
+        /* margin: 10% auto; */
+    }
+
+    /* -----------------------------------------------Giỏ hang----------------------------------- */
+    .col-md-3.col-lg-3.col-xl-2.d-flex.add_sl {
+        margin-top: 5%;
+        width: 90%;
+    }
+
+    button.nut_xoa_sp {
+        padding: 7px;
+        width: 100%;
+        margin-top: 4%;
+    }
+
+    .col-md-6.col-lg-5.col-xl-4.d-flex.sl_gia {
+        margin-top: 5%;
+    }
+
+    .gia_sp h5 {
+        padding-top: 4%;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .col-md-6.col-lg-6.col-xl-5.d-flex.sl_gia {
+        margin-top: 5%;
+    }
+
+    /* -----------------------------------------------Trang vận chuyển----------------------------------- */
+    .giohang_vanchuyen,
+    .vanchuyen, .menu-donmua {
+        width: 100%;
+    }
+
+    .row.d-flex.justify-content-between.align-items-center {
+        margin: auto;
+    }
+
+    /* =------------------------------Trang thông tin thanh toán--------- */
+    .thongtinthanhtoan-address {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    }
+
+    .adr {
+        width: 100%;
+        padding: 0 1%;
+    }
+
+    .hinhthucthanhtoan {
+        width: 100%;
+        margin: 1% 2%;
+    }
+
+    .menu-cart, .none {
+        display: none;
+    }
+
+    .buy {
+        padding: 3rem;
+    }
+
+    .hinhthucthanhtoan {
+        display: block;
+        padding-left: 10%;
+    }
+
+    .buy-tt {
+        padding: 1rem;
+    }
+
+    /* =------------------------------Trang thông tin thanh toán--------- */
+    .dondadat {
+        padding: 0;
+    }
+
+    .stt_don,
+    td.httt_don,
+    .xemdon,
+    .tg_don {
+        display: none;
+    }
+
+    .tg_don_block, .unnone {
+        display: block;
+    }
+
+    .afk {
+        display: flex;
+    }
+
+    .xemdonhnag {
+        width: 94%;
+        margin: auto;
+    }
+
+    .before_dg {
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    /* tìm đơn mua */
+    .vtsdm {
+        width: 74%;
+        margin: auto;
+    }
+
+    .vtsdm1 {
+        width: 100%;
+        margin: auto;
+    }
+
+}

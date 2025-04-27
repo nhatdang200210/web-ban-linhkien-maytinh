@@ -1,0 +1,50 @@
+/* tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1048px){
+    .header{
+        max-height: 40px;
+        padding: 5px;
+    }
+    .header-content{
+        flex: 0 0 50%;
+        font-size: 16px;
+    }
+    /* =------------------------------Trang thông tin thanh toán--------- */
+    .thongtinthanhtoan-address{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:2%;
+    }
+    /* .adr{
+        width: 100%;
+        padding: 0 1%;
+    } */
+    /* .hinhthucthanhtoan{
+        width: 100%;
+        margin: 1% 2%;
+    } */
+    /* .menu-cart{
+        display: none;
+    } */
+    .hinhthucthanhtoan input.btn {
+        width: 98%;
+    }
+    .buy{
+        padding: 3rem;
+    }
+    div.ten h5{
+        font-size: 12px;
+    }
+    .price_show{
+        font-size: 14px;
+    }
+    .price_through{
+        font-size: 12px;
+    }
+    .fa.fa-heart{
+        font-size: 20px;
+    }
+    .cmt .sao{
+        padding: 4% 0;
+    }
+}

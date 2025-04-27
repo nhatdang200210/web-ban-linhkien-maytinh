@@ -1,0 +1,106 @@
+@media only screen and (max-width: 740px) {
+    .lietke {
+        width: 100%;
+        margin: auto;
+    }
+
+    .ten_sp {
+        margin: 0;
+    }
+
+    .sl_sp {
+        margin: 0;
+    }
+
+    .ha_sp {
+        margin: 0;
+    }
+
+    .form_them_sp {
+        width: 100%;
+        margin: auto;
+    }
+
+    .none,
+    .add_sp {
+        display: none;
+    }
+
+    .block {
+        display: block;
+    }
+
+    .quanly {
+        width: 98%;
+        /* background-color: green; */
+    }
+
+    #sidebar {
+        min-width: 270px;
+        max-width: 270px;
+    }
+
+    /* --------------------liệt kê danh sách tài khoản------------- */
+    .taikhoan {
+        width: 98%;
+        margin-left: 2%;
+    }
+
+    .xemdon {
+        width: 94%;
+    }
+
+
+    /* đánh giá */
+    .table_rep_cmt {
+        width: 99%;
+    }
+
+    .nd-rep {
+        padding: 0 28px 10px 7px;
+    }
+
+    .nd-dg {
+        padding: 0 6px;
+    }
+
+    .sao-dg {
+        padding-left: 6px;
+        padding-bottom: 8px
+    }
+
+    .all-dg {
+        width: 99%;
+        margin: auto;
+        margin-left: 1%;
+    }
+
+    .ha {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .chitiet_sp_dg {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tt_sp {
+        width: 100%;
+        padding-left: 2%;
+        padding-top: 2%;
+    }
+
+    .table_rep_cmt_ct {
+        width: 100%;
+        margin: 1%;
+        margin-left: 0.5%;
+
+    }
+
+    .ten_sp {
+        width: 100%;
+    }
+
+
+}

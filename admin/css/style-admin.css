@@ -1,0 +1,471 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif !important;
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    /* background-color: red; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ------------------ Phần header------------------------------------ */
+.header {
+    background-color: red;
+    padding: 0.01%;
+
+}
+
+.title-admin {
+    text-align: center;
+    padding: 30px 0;
+    color: #7386D5;
+
+}
+
+.login {
+    /* float: right; */
+    /* background-color: aqua; */
+    text-align: right;
+    padding: 10px;
+    padding-right: 2%;
+}
+
+/* ------------------ Phần sidebar menu------------------------------------ */
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    /* flex: 0 0 100%; */
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 280px;
+    max-width: 280px;
+    background: #515151;
+    color: #fff;
+    transition: all 0.3s;
+
+}
+
+#sidebar.active {
+    margin-left: -280px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    /* background: #6d7fcc; */
+    background-color: #918f8f;
+    /* text-align: center; */
+}
+
+#sidebar ul.components {
+    padding: 20px 5px;
+    /* border-bottom: 1px solid #47748b; */
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+
+#sidebar ul li a {
+    padding: 18px;
+    font-size: 1.1em;
+    display: block;
+    transition: all 0.3 ease;
+    /* border-bottom: 1px solid white; */
+}
+
+#sidebar ul li a:hover {
+    color: chocolate;
+    background: #fff;
+    transform: scale(1.03);
+}
+
+
+#sidebar ul li.active>a,
+a.a[aria-expanded="true"] {
+    color: #fff;
+    background: #e73a3a;
+}
+
+#sidebar ul li.active>a,
+a.b[aria-expanded="true"] {
+    color: #fff;
+    background: #f87777;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 1em !important;
+    padding-left: 30px !important;
+    background: #c6c4c4;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    /* padding: 20px; */
+    padding: 0;
+    min-height: 100vh;
+    transition: all 0.3s;
+    /* background-color: rgb(173, 173, 245); */
+    padding-bottom: 4%;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+/* --------------------liệt kê danh sách danh mục ------------- */
+.lietke {
+    width: 90%;
+    margin: auto;
+}
+
+.ten_sp {
+    margin-right: 5%;
+    margin-left: 6%;
+    font-weight: 600;
+}
+
+.sl_sp {
+    margin-right: 5%;
+    margin-left: 6%;
+}
+
+.ha_sp {
+    margin-right: 5%;
+    margin-left: 6%;
+}
+
+.ha_sp input {
+    margin-bottom: 1%;
+}
+
+.form_them_sp {
+    width: 100%;
+    /* margin: 1%; */
+    padding-left: 1.5%;
+    /* background-color: blue; */
+}
+
+.ten_sp input.form-control,
+.sl_sp input.form-control,
+.gia_sp input.form-control,
+select#inputState,
+select#inputtt {
+    font-size: 19px;
+}
+
+.quanly {
+    width: 99%;
+    height: auto;
+}
+
+/* --------------------liệt kê danh sách tài khoản ------------- */
+.taikhoan {
+    width: 70%;
+    margin: auto;
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+        height: 100vh !important;
+    }
+}
+
+
+/* --------------------chi tiết đơn hàng------------------ ------------- */
+.xemdon {
+    width: 70%;
+    margin: auto;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.bg-grey {
+    background-color: #eae8e8;
+}
+
+@media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .p-5 {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .p-5 {
+        padding: 0 !important;
+    }
+}
+
+/* bài viết  */
+.block {
+    display: none;
+}
+
+
+.gia_sale {
+    color: #707070;
+    display: inline-block;
+    font-size: 19px;
+    text-decoration: line-through;
+    margin-bottom: 0;
+    font-weight: 600;
+    padding-top: 5px;
+    line-height: 1.3;
+}
+
+.menu_dh {
+    width: 100%;
+    /* margin: 0 auto 20px; */
+}
+
+.btn.active {
+    background-color: #28a745;
+    /* Màu nền khi nút ở trạng thái active */
+    color: white;
+    /* Màu chữ khi nút ở trạng thái active */
+    border-color: #014B23;
+    /* Màu viền khi nút ở trạng thái active */
+}
+
+
+.table_rep_cmt {
+    width: 70%;
+    margin: 1% auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.title_all_sp {
+    /* border: 1px solid; */
+    padding: 0.5% 0 0.5%;
+    background-image: linear-gradient(to right, #fffbd5, rgba(213, 13, 10, 0.647));
+    margin-left: 1%;
+}
+
+.add_sp {
+    width: 6%;
+}
+
+.ten_sp {
+    width: 94%;
+    padding-top: 10px
+}
+
+.cf-title-02 h2 {
+    text-transform: capitalize;
+}
+
+.cf-title-02 h2:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
+    content: "";
+    /* background-color: #c50000; */
+}
+
+/* .cf-title-02 h2 span {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 3em;
+    padding-left: 0.25em;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 10px;
+} */
+
+.cf-title-alt-two h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cf-title-alt-two h2:before {
+    left: 50%;
+    margin-left: -30px;
+}
+
+
+
+/* đánh giá------------------------------------ */
+.nd-rep {
+    padding: 0 63px 10px 7px;
+    text-align: justify
+}
+
+.nd-dg {
+    padding: 0 67px;
+}
+
+.sao-dg {
+    padding-left: 65px;
+    padding-bottom: 8px;
+}
+
+.xoa-cmt {
+    margin-bottom: 0;
+    margin: 0 10px;
+    float: right;
+    font-size: 20px;
+    color: #BB0000;
+    border: none;
+    background: none;
+    transition: all 0.3s ease;
+}
+
+.xoa-cmt:hover {
+    transform: scale(1.6);
+    color: red
+}
+
+.table_rep_cmt_ct {
+    width: 100%;
+    margin: 1% auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.all-dg {
+    width: 70%;
+    margin: auto;
+}
+
+.ha {
+    width: 25%;
+    padding: 20px;
+}
+
+.chitiet_sp_dg {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.tt_sp {
+    width: 70%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.click-ha {
+    transition: all 0.3s ease;
+    border: 1px solid #AAAAAA;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.click-ha:hover {
+    transform: scale(1.07);
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu-dg {
+    padding: 0;
+    margin-left: 1%;
+}
